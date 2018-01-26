@@ -1,0 +1,22 @@
+accessKey:
+  id: LTAISExxxxxxxxxx
+  secret: NXKz6LkuFk1XXXXXXXXXXXXXXXXXXX
+
+host: &host "10.0.0.1"
+
+dns:
+  - domain: example.com
+    rr: "@"
+    type: A
+    value: *host
+    ttl: 600
+  - domain: example.com
+    rr: www
+    type: A
+    value: *host
+    ttl: 600
+  - domain: example.com
+    rr: plus
+    type: A
+    value: *host
+    ttl: 600
