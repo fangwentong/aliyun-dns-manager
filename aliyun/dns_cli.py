@@ -38,7 +38,7 @@ def updateDnsConfig(cfgPath):
             recordId = record.get("RecordId")
             while ops.descDomainRecord(recordId).get("Value") != value:
                 print("try update record [{}] {}.{} -> {}".format(type, rr, domain, value))
-                print(ops.modifyDomainRecord(recordId, type, value))
+                print(ops.modifyDomainRecord(recordId, rr, type, value))
             print("status now [{}] {}.{} -> {}".format(type, rr, domain, value))
     print("Done.")
 
