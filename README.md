@@ -15,7 +15,8 @@ Write your config file (refer to [aliyun_sample.yml](conf/aliyun_sample.yml)), p
 
 
 ```
-> aliyun-dns-manager
+$ aliyun-dns-manager
+
 Usage:
     aliyun-dns-manager <command> [/path/to/dns/config]
 
@@ -24,7 +25,8 @@ Commands:
     update    load dns config from local, flush local config to aliyun
 
 
-> aliyun-dns-manager status aliyun_sample.yml
+$ aliyun-dns-manager status aliyun_sample.yml
+
 status now [A] @.example.com -> 93.184.216.34
 status now [A] www.example.com -> 93.184.216.34
 status now [A] plus.example.com -> nil
