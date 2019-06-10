@@ -17,5 +17,5 @@ setup(
     entry_points={
         'console_scripts': ['aliyun-dns-manager=aliyun.dns_cli:main']
     },
-    install_requires=['aliyun-python-sdk-alidns==2.0.6', 'PyYAML==3.12']
+    install_requires=['aliyun-python-sdk-alidns==2.0.6', 'PyYAML==5.1.1']
 )

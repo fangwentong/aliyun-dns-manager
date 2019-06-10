@@ -11,7 +11,7 @@ pip install https://github.com/fangwentong/aliyun-dns-manager/archive/master.zip
 
 ## Usage
 
-Write your config file (refer to [aliyun_sample.yml](conf/aliyun_sample.yml)), pass path to the command.
+Write your config file (refer to [aliyun_sample.yml](conf/aliyun_sample.yml)), pass the file path to the command.
 
 
 ```

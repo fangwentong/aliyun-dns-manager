@@ -10,7 +10,7 @@ from dns_ops import AliyunDnsOps
 
 def load_aliyun_conf(path):
     with open(path) as fp:
-        return yaml.load(fp)
+        return yaml.load(fp, Loader=yaml.FullLoader)
 
 
 def load_and_update_dns_config(cfg_path):
